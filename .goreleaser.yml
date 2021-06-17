@@ -3,7 +3,7 @@
 before:
   hooks:
     - go mod download
-    - apt-get install -y upx
+    - sudo apt-get install -y upx
 builds:
   - id: ehco
     main: ./cmd/ehco/main.go
